@@ -1,5 +1,5 @@
 import "react";
-import { SignedIn, SignedUp, SignedOut, UserButton } from "@clerk/clerk-react";
+import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 import { Outlet, Link, Navigate } from "react-router-dom";
 // import shadcn
 
@@ -13,6 +13,7 @@ export function Layout() {
           <Outlet />
         </SignedIn>
       </main>
+      <footer className="layout-footer"></footer>
     </div>
   );
 }
