@@ -1,6 +1,8 @@
+// todo replace app.css
 import "./App.css";
 import { AuthenticationPage } from "../auth/AuthenticationPage";
-import { ClerkProviderWithRoutes } from "./auth/ClerkProviderWithRoutes";
+import { ClerkProviderWithRoutes } from "../auth/ClerkProviderWithRoutes";
+import { Layout } from "../layout/Layout";
 
 function App() {
   return (
