@@ -5,6 +5,7 @@ import ClerkProviderWithRoutes from "../auth/ClerkProviderWithRoutes";
 import { Layout } from "../layout/Layout";
 import { Route, Routes } from "react-router-dom";
 import { FloorPlanDesigner } from "../pages/FloorPlanDesigner/FloorPlanDesigner";
+import { Home } from "../pages/Home/Home";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <Route path="/sign-up" element={<AuthenticationPage />}></Route>
         <Route element={<Layout />}>
           {/* put everything that sits in layout here */}
-          <Route path="/" element={<FloorPlanDesigner />}></Route>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/floor-plan" element={<FloorPlanDesigner />}></Route>
         </Route>
       </Routes>
     </ClerkProviderWithRoutes>

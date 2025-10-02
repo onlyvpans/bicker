@@ -13,7 +13,7 @@ export function Layout() {
           <Outlet />
         </SignedIn>
       </main>
-      <footer className="layout-footer"></footer>
+      <footer className="layout-footer">i am a foot</footer>
     </div>
   );
 }
