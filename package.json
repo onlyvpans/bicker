@@ -1,7 +1,3 @@
 {
-  "dependencies": {
-    "@clerk/clerk-react": "^5.49.0",
-    "@clerk/nextjs": "^6.33.0",
-    "react-router-dom": "^6.30.1"
-  }
+  "dependencies": {}
 }

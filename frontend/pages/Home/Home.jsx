@@ -1,3 +1,9 @@
 export function Home() {
-  return <div></div>;
+  return (
+    <div>
+      <div>Stop bickering</div>
+      <div></div>
+      <div></div>
+    </div>
+  );
 }
